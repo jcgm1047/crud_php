@@ -10,13 +10,13 @@
 
              <form action="save_task.php" method="POST">
 
-                     <div class="form-grup">
-                            <input type="text" name="title" id="" class="form-control" placeholder="Task title" autofocus >
+                     <div class="form-grup mb-2">
+                            <input type="text" name="title"  class="form-control" placeholder="Task title" autofocus >
                      </div>
                 
                       <div class="form-grup">
                     
-                            <textarea name="description" rows="2" class="form-control" placeholder="Task Description"></textarea>
+                            <textarea name="description" rows="2" class="form-control mb-2" placeholder="Task Description"></textarea>
 
                      </div>
                      <input type="submit" class="btn btn-success btn-block" name="save_task" value="Save Task">
