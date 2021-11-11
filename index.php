@@ -2,6 +2,10 @@
 <?php include("db.php") ?>
 
 <div class="container p-4">
+<<<<<<< HEAD
+=======
+
+>>>>>>> ff951836028b2b71b94c29b4d6549cae92a62c71
     <div class="row">
         <div class="col-md-4">
             <?php if (isset($_SESSION['message'])) { ?>
@@ -17,6 +21,7 @@
             <?php session_unset();
             } ?>
 
+<<<<<<< HEAD
             <div class="card card-body">
 
                 <form action="save_task.php" method="POST">
@@ -25,6 +30,25 @@
                         <input type="text" name="title" class="form-control" placeholder="Task title" autofocus>
                     </div>
 
+=======
+        <div class="col-md-4">
+
+            <?php if (isset($_SESSION[''])) { ?>
+
+
+                
+
+            <?php } ?>
+
+            <div class="card card-body">
+
+                <form action="save_task.php" method="POST">
+
+                    <div class="form-grup mb-2">
+                        <input type="text" name="title" class="form-control" placeholder="Task title" autofocus>
+                    </div>
+
+>>>>>>> ff951836028b2b71b94c29b4d6549cae92a62c71
                     <div class="form-grup">
 
                         <textarea name="description" rows="2" class="form-control mb-2" placeholder="Task Description"></textarea>
