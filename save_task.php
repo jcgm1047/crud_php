@@ -12,7 +12,11 @@ if (isset($_POST['save_task'])) {
 if (!$result) {
     die ("Query Failed");
 }
-echo "SAVED";
+
+$_SESSION['message'] = 'Tarea guardada satisfactoriamente';
+$_SESSION['message_type'] = 'success';
+
+header("Location: index.php");
 
 }
 
