@@ -19,8 +19,3 @@ $_SESSION['message_type'] = 'success';
 header("Location: index.php");
 
 }
-
-
-
-?>
-
